@@ -1,0 +1,15 @@
+{
+  "name": "revenue-reconciliation-ai-ops-monitoring",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "automations/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "zitejs check"
+  },
+  "dependencies": {
+    "zitejs": "0.9.144"
+  }
+}
